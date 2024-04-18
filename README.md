@@ -7,6 +7,7 @@ Resolução do desafio de convesor de moedas.
 - Java 21
 - Maven
 - ExchageRate-API
+- GSON
 
 
 #### Como utilizar
