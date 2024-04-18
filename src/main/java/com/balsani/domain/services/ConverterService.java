@@ -10,9 +10,9 @@ import java.net.http.HttpRequest;
 import java.net.http.HttpResponse;
 import java.util.Scanner;
 
-public class CurrencyConverterService {
+public class ConverterService {
     private static final Scanner SCANNER = new Scanner(System.in);
-    private static final String API_URL = "https://v6.exchangerate-api.com/v6/182a0708d95b2e08e0e84e44/latest/";
+    private static final String API_URL = "https://v6.exchangerate-api.com/v6/YOUR_API_KEY/latest/";
 
     public static void convertCurrency(String from, String to) {
         try {
